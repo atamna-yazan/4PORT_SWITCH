@@ -1,0 +1,47 @@
+# remove any constraints that were applied from previous runs:
+
+remove_sdc -design
+
+set_disable_clock_gating_check [get_ports get_cells]
+
+
+# Set the physical library:
+
+set lib_name saed32hvt_ss0p75v125c
+
+
+#set_current_design TOP
+
+
+# Create clock object and set uncertainty
+
+create_clock -period 10 [get_ports clk]
+
+set_clock_uncertainty -setup 0.15 [get_clocks clk]
+
+set_false_path -from [get_ports rst_n]
+
+
+# Set constraints on input ports
+
+#suppress_message UID-401
+
+#suppress_message DCT-306
+
+
+
+set_input_delay -max 0.5 -clock clk \
+  [remove_from_collection [all_inputs] [get_ports {clk rst_n}]]
+
+
+
+# Set constraints on output ports:
+
+set_output_delay -max 0.2 -clock clk \
+  [all_outputs]
+
+# Handshake feedback is not timing-critical
+
+set_false_path -from [get_ports in_valid[*]]  -to [get_ports in_ready[*]]
+
+set_false_path -from [get_ports out_ready[*]] -to [get_ports out_valid[*]]
