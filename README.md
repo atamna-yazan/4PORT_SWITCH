@@ -84,7 +84,7 @@ Verification features:
 ### Functional Coverage Results:
 
 <p align="center">
-  <img src="Screenshots/switch_port_coverage.png" width="850">
+  <img src="Screenshots/switch_port coverage.png" width="850">
 </p>
 
 <p align="center">
@@ -95,7 +95,7 @@ Verification features:
 </p>
 
 <p align="center">
-  <img src="Screenshots/switch_4port_coverage.png" width="850">
+  <img src="Screenshots/switch_4port coverage.png" width="850">
 </p>
 
 <p align="center">
@@ -106,7 +106,7 @@ Verification features:
 </p>
 
 <p align="center">
-  <img src="Screenshots/target_coverage.png" width="850">
+  <img src="Screenshots/target coverage.png" width="850">
 </p>
 
 <p align="center">
