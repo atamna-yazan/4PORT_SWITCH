@@ -16,7 +16,7 @@ The project was completed in **three full hardware development stages**:
 - **Stage B – Verification**
 - **Stage C – Synthesis & Analysis**
 
-All stages strictly follow the official project specification :contentReference[oaicite:2]{index=2} and were fully implemented and analyzed in the final report :contentReference[oaicite:3]{index=3}.
+All stages strictly follow the official project specification and were fully implemented and analyzed in the final report .
 
 ---
 
