@@ -3,7 +3,7 @@
 A complete **Four-Port Packet Switch** implemented in **SystemVerilog RTL**, verified using a **custom object-oriented verification environment**, and synthesized using **Synopsys Fusion Compiler / ICC2-style flows** with and without **clock gating**.
 
 This project was developed as part of the course  
-**Design, Verification and Logical Synthesis for VLSI Circuits (5124711)**.
+**Design, Verification and Logical Synthesis for VLSI Circuits (05124711)**.
 
 ---
 
