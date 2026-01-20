@@ -80,7 +80,67 @@ Verification features:
   - FSM states
   - Cross combinations
 
-All verification results passed successfully :contentReference[oaicite:4]{index=4}.
+## Verification & Coverage tests:
+### Functional Coverage Results:
+
+<p align="center">
+  <img src="Screenshots/switch_port_coverage.png" width="850">
+</p>
+
+<p align="center">
+  <em>
+    FSM functional coverage for <code>switch_port</code>.
+    All states (IDLE, WAIT_LAT, TRANSMIT) are fully exercised with 100% coverage.
+  </em>
+</p>
+
+<p align="center">
+  <img src="Screenshots/switch_4port_coverage.png" width="850">
+</p>
+
+<p align="center">
+  <em>
+    Functional coverage of packet fanout, source, target, and packet type
+    at the switch level. All bins reached (100% coverage).
+  </em>
+</p>
+
+<p align="center">
+  <img src="Screenshots/target_coverage.png" width="850">
+</p>
+
+<p align="center">
+  <em>
+    Coverage of packet target patterns, including single-destination,
+    multicast (2–3 ports), and broadcast traffic.
+  </em>
+</p>
+
+<p align="center">
+  <img src="Screenshots/type_target.png" width="850">
+</p>
+
+<p align="center">
+  <em>
+    Cross-coverage between packet type and source port, ensuring all
+    traffic classes are exercised across all input ports.
+  </em>
+</p>
+
+### Verification & Checker Results:
+
+<p align="center">
+  <img src="Screenshots/test_results.png" width="900">
+</p>
+
+<p align="center">
+  <em>
+    Self-checking verification results.
+    All generated packets were received correctly with zero drops,
+    zero duplication, and zero mismatches (PASS = 2756, FAIL = 0).
+  </em>
+</p>
+
 
 ---
 
