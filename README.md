@@ -91,7 +91,7 @@ All verification results passed successfully :contentReference[oaicite:4]{index=
 <p align="center"> <img src="Screenshots/modular_detailed_rtl.png" width="700"> </p> <p align="center"> <em>Detailed RTL representation exposing internal logic and connectivity.</em> </p>
 
 <p align="center">
-  <img src="Screenshots/synthesis_screenshot.png" width="900">
+  <img src="Screenshots/synthesis .png" width="900">
 </p>
 
 <p align="center">
