@@ -90,7 +90,7 @@ All verification results passed successfully :contentReference[oaicite:4]{index=
 
 <p align="center"> <img src="Screenshots/modular_detailed_rtl.png" width="700"> </p> <p align="center"> <em>Detailed RTL representation exposing internal logic and connectivity.</em> </p>
 
-<p align="center"> <img src="Screenshots/synthesis.png" width="850"> </p> <p align="center"> <em>Post-synthesis gate-level and physical implementation generated using Fusion Compiler.</em> </p>
+
 
 Synthesis performed using **Synopsys Fusion Compiler**, comparing:
 
